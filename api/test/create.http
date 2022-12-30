@@ -1,0 +1,9 @@
+POST http://localhost:3000/classes HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Test",
+    "description": "",
+    "day": 1,
+    "color": "#FFF"
+}
