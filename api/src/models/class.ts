@@ -70,7 +70,7 @@ export default class Class {
     }
 
     public set color(value: string) {
-        const regex = new RegExp("[#][0-9A-F]{3,6}")
+        const regex = new RegExp("^#\w{3,6}")
 
         if (!value || !regex.test(value)) {
             this._color = '#FFF';
