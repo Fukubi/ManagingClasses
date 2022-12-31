@@ -19,4 +19,8 @@ Examples of how to send requests can be found in the test folder
 
 ## Front End
 
---- IN DEVELOPMENT ---
+To run the backend is necessary to have the backend running so only follow these steps after the backend is working, the working backend port (right now) is only 3000. To run the frontend run these commands in the ui folder
+```bash
+yarn install
+yarn dev
+```
