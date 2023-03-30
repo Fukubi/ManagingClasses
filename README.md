@@ -1,5 +1,7 @@
 # ManagingClasses
 
+![List_Page](https://raw.githubusercontent.com/Fukubi/ManagingClasses/main/images/List.png)
+
 A FullStack application developed using Typescript + Vite + React to manage classes and organize students schedules
 
 ## Backend
@@ -28,11 +30,6 @@ yarn dev
 
 ## TODO
 
-<<<<<<< HEAD
-- [ ] Protect the API with JWT
-- [ ] Login in Front End
-=======
 - [ ] Secure the API with JWT Authentication
 - [ ] Login in frontend
->>>>>>> development
 - [ ] Show the day of the week the user is in
