@@ -1,6 +1,6 @@
 # ManagingClasses
 
-A FullStack application created with Typescript and React to manage classes and organize students schedules
+A FullStack application developed using Typescript + Vite + React to manage classes and organize students schedules
 
 ## Backend
 
@@ -12,6 +12,7 @@ docker compose up -d
 To configure the backend you have to create a .env file inside the api folder, following the example in the file .env.example. After the configuration you can run, inside the api folder, the command
 ```bash
 yarn install
+yarn prisma migrate dev --name init
 yarn start
 ```
 
@@ -27,6 +28,11 @@ yarn dev
 
 ## TODO
 
+<<<<<<< HEAD
 - [ ] Protect the API with JWT
 - [ ] Login in Front End
+=======
+- [ ] Secure the API with JWT Authentication
+- [ ] Login in frontend
+>>>>>>> development
 - [ ] Show the day of the week the user is in
