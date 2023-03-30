@@ -1,6 +1,6 @@
 # ManagingClasses
 
-A FullStack application to manage classes and organize students schedules
+A FullStack application developed using Typescript + Vite + React to manage classes and organize students schedules
 
 ## Backend
 
@@ -24,3 +24,9 @@ To run the backend is necessary to have the backend running so only follow these
 yarn install
 yarn dev
 ```
+
+## TODO
+
+- [ ] Secure the API with JWT Authentication
+- [ ] Login in frontend
+- [ ] Show the day of the week the user is in
